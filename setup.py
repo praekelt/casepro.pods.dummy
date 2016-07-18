@@ -11,7 +11,9 @@ with open(os.path.join(here, 'VERSION')) as f:
 
 setup(name='casepro.pods.dummy',
       version=version,
-      description=('.'),
+      description=(
+          'Example casepro data pod returning statically configured'
+          'data'),
       long_description=readme,
       classifiers=[
           "Programming Language :: Python",

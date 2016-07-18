@@ -1,4 +1,4 @@
 casepro.pods.dummy
 ==================
 
-Example casepro data pod
+Example casepro data pod returning statically configured data.
