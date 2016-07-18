@@ -9,7 +9,7 @@ with open(os.path.join(here, 'README.rst')) as f:
 with open(os.path.join(here, 'VERSION')) as f:
     version = f.read().strip()
 
-setup(name='casepro.pods.constant',
+setup(name='casepro.pods.dummy',
       version=version,
       description=('.'),
       long_description=readme,
@@ -21,7 +21,7 @@ setup(name='casepro.pods.constant',
       ],
       author='Praekelt Foundation',
       author_email='dev@praekelt.com',
-      url='http://github.com/praekelt/molo.usermetadata',
+      url='http://github.com/praekelt/casepro.pods.dummy',
       license='BSD',
       keywords='',
       packages=find_packages(),
