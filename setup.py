@@ -1,6 +1,6 @@
 import os
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 here = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(here, 'README.rst')) as f:
@@ -26,8 +26,8 @@ setup(name='casepro.pods.dummy',
       url='http://github.com/praekelt/casepro.pods.dummy',
       license='BSD',
       keywords='',
-      packages=find_packages(),
+      packages=['casepro.pods.dummy'],
       include_package_data=True,
       zip_safe=False,
-      namespace_packages=['casepro', 'casepro.pods'],
+      namespace_packages=['casepro.pods'],
       entry_points={})
