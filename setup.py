@@ -9,7 +9,7 @@ with open(os.path.join(here, 'README.rst')) as f:
 with open(os.path.join(here, 'VERSION')) as f:
     version = f.read().strip()
 
-setup(name='casepro.pods.dummy',
+setup(name='casepropods.dummy',
       version=version,
       description=(
           'Example casepro data pod returning statically configured'
@@ -26,8 +26,8 @@ setup(name='casepro.pods.dummy',
       url='http://github.com/praekelt/casepro.pods.dummy',
       license='BSD',
       keywords='',
-      packages=['casepro.pods.dummy'],
+      packages=['casepropods.dummy'],
       include_package_data=True,
       zip_safe=False,
-      namespace_packages=['casepro.pods'],
+      namespace_packages=['casepropods'],
       entry_points={})
