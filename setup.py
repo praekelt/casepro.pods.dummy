@@ -9,7 +9,7 @@ with open(os.path.join(here, 'README.rst')) as f:
 with open(os.path.join(here, 'VERSION')) as f:
     version = f.read().strip()
 
-setup(name='casepro.pods.dummy',
+setup(name='casepro.dummypod',
       version=version,
       description=(
           'Example casepro data pod returning statically configured'
@@ -29,5 +29,5 @@ setup(name='casepro.pods.dummy',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
-      namespace_packages=['casepro', 'casepro.pods'],
+      namespace_packages=['casepro'],
       entry_points={})
