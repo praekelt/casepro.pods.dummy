@@ -17,7 +17,7 @@ In casepro's settings file, add the pod as an installed app, and configure the p
 
 .. code-block:: python
 
-  INSTALLED_APPS += ('casepropods.dummy.plugin.DummyPodPlugin')
+  INSTALLED_APPS += ('casepropods.dummy.plugin.DummyPodPlugin',)
 
   PODS = [{
       'label': 'dummy_pod',
