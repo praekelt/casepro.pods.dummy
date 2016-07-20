@@ -20,8 +20,14 @@ In casepro's settings file, add the pod as an installed app, and configure the p
   INSTALLED_APPS += ('casepropods.dummy.plugin.DummyPodPlugin',)
 
   PODS = [{
+      # maps this pod to the dummy pod type
       'label': 'dummy_pod',
+
+      # title of the pod to show in the ui
       'title': 'Maternal Health Info',
+
+      # static data to show as item in the ui for this pod
+      # (only relevant to the dummy pod type)
       'data': {
           'items': [{
               'name': 'EDD',
