@@ -31,7 +31,4 @@ In casepro's settings file, add the pod as an installed app, and configure the p
               'value': '2034 6524 6421'
           }]
       }
-  }, {
-      'label': 'custom_pod',
-      'title': 'Custom Info',
   }]
