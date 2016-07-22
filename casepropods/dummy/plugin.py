@@ -14,6 +14,7 @@ class DummyPod(Pod):
 
 
 class DummyPodPlugin(PodPlugin):
+    name = 'casepropods.dummy'
     label = 'dummy_pod'
     pod_class = DummyPod
     config_class = DummyPodConfig
