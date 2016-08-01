@@ -22,9 +22,9 @@ class DummyPod(Pod):
             raise Exception('Dummy exception to demonstrate failure handling')
 
     def perform_action(self, type_, params):
-        sleep(params['delay'])
+        sleep(params.get('delay', 0))
 
-        if params['succeed']:
+        if params.get('succeed', True):
             return params['result']
         else:
             raise Exception('Dummy exception to demonstrate failure handling')
