@@ -10,7 +10,7 @@ class DummyPodConfig(PodConfig):
 
     succeed = ConfigBool(
         "Whether or not the pod should load successfully (to demonstrate "
-        "failure handling",
+        "failure handling)",
         default=True)
 
 
